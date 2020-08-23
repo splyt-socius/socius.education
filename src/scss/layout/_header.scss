@@ -1,0 +1,15 @@
+.header{
+  padding: 2rem 0;
+  svg{
+    width: 10rem;
+    vertical-align: middle;
+  }
+  .wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}
