@@ -8,10 +8,10 @@ $alpha: .7;
     align-items: center;
     justify-content: center;
     padding: 6rem 0;
-    background-image: linear-gradient(rgba(var(--color-brand-3), .6), rgba(var(--color-brand-4), .6)), url(/dist/img/lobby.webp);
+    background-image: linear-gradient(rgba(var(--color-brand-3), .6), rgba(var(--color-brand-4), .6)), url(/dist/img/library.webp);
     background-size: cover;
     .no-webp &{
-      background-image: url(/dist/img/lobby.jpg);
+      background-image: url(/dist/img/library.jpg);
     }
     div{
       width: 80%;
@@ -171,11 +171,11 @@ $alpha: .7;
     color: #777;
   }
   &__bar{
-    background-image: linear-gradient(rgba(#000, .7), rgba(var(--color-brand-4), .2)), url(/dist/img/bar.webp);
+    background-image: linear-gradient(rgba(#000, .7), rgba(var(--color-brand-4), .2)), url(/dist/img/laptop.webp);
     background-size: cover;
     background-position: center;
     .no-webp &{
-      background-image: linear-gradient(rgba(#000, .7), rgba(var(--color-brand-4), .2)), url(/dist/img/bar.jpg);
+      background-image: linear-gradient(rgba(#000, .7), rgba(var(--color-brand-4), .2)), url(/dist/img/laptop.jpg);
     }
   }
   &__statement{
